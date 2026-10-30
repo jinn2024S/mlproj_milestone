@@ -1,0 +1,13 @@
+Split seed: 42. HAM10000 split by lesion_id (7-fold, one fold used as validation).
+
+Train (HAM10000): 8584 images, 1675 malignant (19.5%), 6909 benign
+  unique lesions: 6403
+  by diagnosis: nv=5773, mel=945, bkl=914, bcc=448, akiec=282, vasc=127, df=95
+
+Validation (HAM10000): 1431 images, 279 malignant (19.5%), 1152 benign
+  unique lesions: 1067
+  by diagnosis: nv=932, bkl=185, mel=168, bcc=66, akiec=45, df=20, vasc=15
+
+Test (ISIC 2018 Task 3): 1511 images, 307 malignant (20.3%), 1204 benign
+  unique lesions: 1222
+  by diagnosis: nv=908, bkl=217, mel=171, bcc=93, df=44, akiec=43, vasc=35
