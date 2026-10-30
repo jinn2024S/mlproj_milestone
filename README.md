@@ -25,4 +25,9 @@ project-folder/
    python prepare_data.py
 ```
 3. Train three models: open `train.ipynb`, set `SEED = 1`, and run all cells. Repeat with `SEED = 2` and `SEED = 3`, restarting the kernel each time.
-4. Evaluate all three models on the test set: run all cells in `evaluate_test.ipynb`.
+   
+   #### OR SKIP TRAINING
+   
+   Trained models for seeds 1, 2, 3 are attached to the
+   [v1_Milestone release](https://github.com/jinn2024S/mlproj/releases/tag/v1_Milestone). Download each one and save it as `runs/seed<N>/best_model.pt`
+5. Evaluate all three models on the test set: run all cells in `evaluate_test.ipynb`.
